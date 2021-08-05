@@ -1,0 +1,57 @@
+/*Simple-demo-page styling*/
+
+
+body{
+   
+    font-family: 'MonteCarlo', cursive;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: 1fr 80vw 1fr;
+    grid-template-rows: 50vh 5em 5em auto;
+   
+                        /* "section-1 section-1 section-1"
+                        "section-1 section-2 section-1"
+                        "section-3 section-2 section-3"
+                        "section-3 section-3 section-3"; */
+}
+
+.section-1{
+    background: url(./belgium.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    grid-column: 1/4;
+    
+   
+
+}
+
+.title span{
+    
+    display: block;
+    
+}
+
+
+.section-2 {
+    background: lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2/3;
+    
+
+}
+
+
+.section-3 {
+    background: rgb(43, 102, 179);
+    text-align: center;
+    
+}
+
+
+
+
+
+
